@@ -1,0 +1,95 @@
+.justify{
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+.gradient{
+	  background: linear-gradient(to top, #434343, #5e5e5e);
+}
+
+h1 a{
+	font-family: Arial;
+	color: #4dee99;
+	text-decoration: none;
+}
+#ganre{
+	background-color: #eeeeee;
+}
+#ganre ul{
+	justify-content: start;
+}
+#ganre a{
+	color:#4dee99;
+	text-decoration: none;
+}
+#ganre a:hover{
+	color:	#02976E;
+}
+table{
+	background-color: #f4f4f4;
+}
+
+#menu{
+	width: 700px;
+	height: auto;
+	background-color: #4dee99;
+	margin: 0px auto;
+}
+
+#menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+
+	padding: 0px;
+	margin:0px;
+}
+#menu li{
+	list-style-type: none;
+}
+#menu h2 a{
+	margin-right: 10px;
+	display: block;
+	color:white;
+	text-decoration: none;
+}
+#menu a:hover{
+	background-color: white;
+	color: #4dee99;
+}
+#menu select {
+	background: transparent;
+	font-size: 23px;
+	border: 0px;
+	font-family: Times New Roman;
+	color: white;
+	font-weight: bold;
+	background-color: #4dee99;
+}
+#menu{
+	overflow: hidden;
+}
+.sign{
+	display: inline-block;
+	width:255px;
+	border:1px solid #02976E;
+	padding: 5px;
+	margin:0px;
+	background-color: #4dee99;
+}
+.sign figcaption{
+	text-align: center;
+}
+.sign a {
+	text-decoration: none;
+	color:#02976E;
+	font-family: Times New Roman;
+	font-weight: bold;
+}
+.sign a:hover{
+	color:black;
+}
+/* охуенный зеленый цвет!!!! #4dee99
+охуенный темно-зеленый цвет!!!! #02976E */
