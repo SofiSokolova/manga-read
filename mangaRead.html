@@ -1,142 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="./dadada.css">
+	<title>Manga Read</title>
+	<link rel="stylesheet" type="text/css" href="dadada.css">
+	<link rel="stylesheet" type="text/css" href="./lightbox/lightbox.min.css">
 </head>
 
 <body>
-	<table width="100%" border="0">
-		<tr class="justify">
-			<td colspan="9" class="gradient">
-				<h1><a href="#">Manga Read</a></h1>
-			</td>
-		</tr>
 
-		<tr class="justify">
-			<td colspan="4" id="menu">
-				<ul>
-					<li>
-						<h2><a href="#">Главная</a></h2>
-					</li>
-					<li>
-						<select size="0">
-							<option value="" disabled selected>Каталог</option>
-							<option>Хентай</option>
-							<option>Яой</option>
-							<option>Юри</option>
-						</select>
-					</li>
-				</ul>
-			</td>
+	<header class="main-header">
+		<div class="hat">
+			<h1>Manga Read</h1>
+		</div>
+		<nav class="main-navigation">
+			<ul class="menu-navigation">
+				<li class="menu-element"><a href="main-page.html">Главная</a></li>
+				<li class="menu-element catalog-element">
+					<select size="0" name="catalog">
+						<option disabled="Каталог">Каталог</option>
+						<option value="манга по жанрам">Манга по жанрам</option>
+						<option value="манга по дате">Манга по дате</option>
+						<option value="манга по популярности">Манга по популярности</option>
+						<option value="манга по авторам">Манга по авторам</option>
+					</select>
+				</li>
+				<li class="menu-element"><a href="contacts.html">Контакты</a></li>
+				<li class="menu-element"><a href="about-ua.html">О нас</a></li>
+			</ul>
+		</nav>
+	</header>
 
-			<td colspan="5"></td>
-
-		</tr>
-
-		<tr>
-			<td colspan="8">
-
-				<h2>Топ самых популярных манг:</h2>
-
-				<figure class="sign">
-					<a href="#"><img src="./images/photo_1.jpg" alt="Тетрадь смерти">
-						<figcaption>Тетрадь смерти</figcaption>
-					</a>
+	<div class="flex">
+		<section class="top">
+			<h2>Топ самых популярных манг:</h2>
+			<div class="flex">
+				<figure class="top-content">
+					<a href="./images/photo_1.jpg" data-lightbox="lightbox"><img alt="Тетрадь смерти" src="./images/photo_1.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Тетрадь смерти</a></figcaption>
 				</figure>
-
-				<figure class="sign">
-					<a href="#"><img src="./images/photo_2.jpg" alt="Ходячий Замок">
-						<figcaption>Ходячий замок</figcaption>
-					</a>
+				<figure class="top-content">
+					<a href="./images/photo_3.jpg" data-lightbox="lightbox"><img alt="Блич" src="./images/photo_3.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Блич</a></figcaption>
 				</figure>
-
-
-				<figure class="sign">
-					<a href="#"><img src="./images/photo_3.jpg" alt="Блич">
-						<figcaption>Блич</figcaption>
-					</a>
+				<figure class="top-content">
+					<a href="./images/5.jpg" data-lightbox="lightbox"><img alt="Хвост феи" src="./images/5.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Хвост феи</a></figcaption>
 				</figure>
-
-			</td>
-
-			<td id="ganre">
-
-				Манга по жанрам:
-				<ul>
-					<li><a href="#">Меха</a></li>
-					<li><a href="#">Киберпанк</a></li>
-					<li><a href="#">Стимпанк</a></li>
-					<li><a href="#">Фэнтези</a></li>
-					<li><a href="#">Научная фантастика</a></li>
-					<li><a href="#">Космическая опера</a></li>
-					<li><a href="#">Апокалиптика</a></li>
-					<li><a href="#">Постапокалиптика</a></li>
-					<li><a href="#">Романтика</a></li>
-					<li><a href="#">Повседневность</a></li>
-					<li><a href="#">Мистика</a></li>
-					<li><a href="#">Комедия</a></li>
-					<li><a href="#">Драма</a></li>
-					<li><a href="#">Детектив</a></li>
-					<li><a href="#">Боевик</a></li>
-				</ul>
-			</td>
-		</tr>
-
-		<tr>
-			<td colspan="8">
-
-				<figure class="sign">
-					<a href="#"><img src="./images/4.jpg" alt="Очень приятно, Бог">
-						<figcaption>Тетрадь смерти</figcaption>
-					</a>
+				
+			</div>
+			<div class="flex">
+				<figure class="top-content">
+					<a href="./images/photo_2.jpg" data-lightbox="lightbox"><img alt="Ходячий замок Хаула" src="./images/photo_2.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Ходячий замок Хаула</a></figcaption>
 				</figure>
-
-				<figure class="sign">
-					<a href="#"><img src="./images/5.jpg" alt="Фейри Тейл">
-						<figcaption>Ходячий замок</figcaption>
-					</a>
+				<figure class="top-content">
+					<a href="./images/4.jpg" data-lightbox="lightbox"><img alt="Очень приятно, Бог" src="./images/4.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Очень приятно, Бог</a></figcaption>
 				</figure>
-
-				<figure class="sign">
-					<a href="#"><img src="./images/6.jpg" alt="Ванпанчмен">
-						<figcaption>Блич</figcaption>
-					</a>
+				<figure class="top-content">
+					<a href="./images/6.jpg" data-lightbox="lightbox"><img alt="Ванпанчмен" src="./images/6.jpg"></a>
+					<figcaption><a href="#" class="button top-button">Ванпанчмен</a></figcaption>
 				</figure>
+			</div>
+		</section>
+		<section class="ganre">
+			<h2>Манга по жанрам:</h2>
+			<ul class="ganre-list">
+				<li><a href="#">Меха</a></li>
+				<li><a href="#">Киберпанк</a></li>
+				<li><a href="#">Стимпанк</a></li>
+				<li><a href="#">Фэнтези</a></li>
+				<li><a href="#">Научная фантастика</a></li>
+				<li><a href="#">Космическая опера</a></li>
+				<li><a href="#">Апокалиптика</a></li>
+				<li><a href="#">Постапокалиптика</a></li>
+				<li><a href="#">Романтика</a></li>
+				<li><a href="#">Повседневность</a></li>
+				<li><a href="#">Мистика</a></li>
+				<li><a href="#">Комедия</a></li>
+				<li><a href="#">Драма</a></li>
+				<li><a href="#">Детектив</a></li>
+				<li><a href="#">Боевик</a></li>
+			</ul>
+		</section>
+	</div>
 
-			</td>
+	<footer class="contacts">
+		<div>2018</div>
+		<div>oleksandra.nosova@nure.ua</div>
+		<div>sofiia.sokolova@nure.ua</div>
 
-		</tr>
+		<a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+			<img src="./images/photo_4.png" alt="Top" border="none" title="Наверх">
+		</a>
+	</footer>
 
-		<tr class="justify">
-			<td colspan="9">Контакты</td>
-		</tr>
-
-	</table>
-
+	<script src="./lightbox/lightbox-plus-jquery.min.js"></script>
+	<script>
+		var smoothJumpUp = function () {
+			if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+				window.scrollBy(0, -50);
+				setTimeout(smoothJumpUp, 20);
+			}
+		}
+		window.onscroll = function () {
+			var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+			if (scrolled > 100) {
+				document.getElementById('upbutton').style.display = 'block';
+			} else {
+				document.getElementById('upbutton').style.display = 'none';
+			}
+		}	
+	</script>
+	
 </body>
 
-<script>
-	var smoothJumpUp = function () {
-		if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-			window.scrollBy(0, -50);
-			setTimeout(smoothJumpUp, 20);
-		}
-	}
-
-	window.onscroll = function () {
-		var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-		if (scrolled > 100) {
-			document.getElementById('upbutton').style.display = 'block';
-		} else {
-			document.getElementById('upbutton').style.display = 'none';
-		}
-	}	
-</script>
-
-<a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
-	<img src="./images/photo_4.png" alt="Top" border="none" title="Наверх">
-</a>
 
 </html>
