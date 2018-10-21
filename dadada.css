@@ -42,8 +42,15 @@ ul{
 .menu-element{
 	padding-left: 10px;
 }
-.catalog-element{
-	display:inline;
+.catalog-element select{
+	border:none;
+	background: transparent;
+	width: 105px;
+	color:#4000ee;
+	font-family:"Century Gothic", Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700px;
 }
 .catalog-element:hover{
 	display:inline;
